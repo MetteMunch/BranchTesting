@@ -24,6 +24,8 @@ public class Main {
             System.out.println("Min hund spiser: " +dogFood);
         }
 
+        System.out.println("Ændring til Main efter Stash");
+
 
     }
 }
