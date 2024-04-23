@@ -17,4 +17,9 @@ public class Dog extends Animal {
             System.out.println("Hunden er sur og knurrer.");
         }
     }
+
+    @Override
+    public void jump(double distance) {
+        System.out.println("Hunden kan hoppe: " +distance + "meter");
+    }
 }

@@ -17,4 +17,9 @@ public class Cat extends Animal {
             System.out.println("Katten er sur og hvæser");
         }
     }
+
+    @Override
+    public void jump(double distance) {
+        System.out.println("Katten kan hoppe: " +distance + "meter");
+    }
 }
