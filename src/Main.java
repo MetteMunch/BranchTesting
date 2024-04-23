@@ -8,7 +8,12 @@ public class Main {
         System.out.println("Min kat hedder Prut.");
         myCat.makeSound();
 
+
+        System.out.println("Min kat spiser: " +myCat.eat("Fish"));
+
+        System.out.println("Min hund siger: ");
         myDog.makeSound();
+        System.out.println("Min hund spiser: "+ myDog.eat("meat"));
 
     }
 }
