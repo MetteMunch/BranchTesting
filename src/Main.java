@@ -5,12 +5,9 @@ public class Main {
         Animal myDog = new Dog();
         Animal myCat = new Cat();
 
-        System.out.println("Min kat siger: ");
+        System.out.println("Min kat hedder Prut.");
         myCat.makeSound();
 
-
-
-        System.out.println("Min hund siger: ");
         myDog.makeSound();
 
     }
