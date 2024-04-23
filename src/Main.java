@@ -4,16 +4,22 @@ public class Main {
     public static void main(String[] args) {
         Animal myDog = new Dog();
         Animal myCat = new Cat();
+        String catFood = "Fish";
+        String dogFood = "Meat";
 
-        System.out.println("Min kat hedder Prut.");
+        System.out.println("Alt om katten: ");
         myCat.makeSound();
+        if(myCat.eat("Fish")){
+            System.out.println("Min kat spiser: " +catFood);
+        }
 
 
-        System.out.println("Min kat spiser: " +myCat.eat("Fish"));
-
-        System.out.println("Min hund siger: ");
+        System.out.println("Alt om hunden: ");
         myDog.makeSound();
-        System.out.println("Min hund spiser: "+ myDog.eat("meat"));
+        if(myDog.eat("meat")){
+            System.out.println("Min hund spiser: " +dogFood);
+        }
+
 
     }
 }
