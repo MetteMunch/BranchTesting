@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Alt om katten: ");
         myCat.makeSound();
         myCat.showMood(true);
+        myCat.jump(2.5);
         if(myCat.eat("Fish")){
             System.out.println("Min kat spiser: " +catFood);
         }
@@ -20,6 +21,7 @@ public class Main {
         System.out.println("Alt om hunden: ");
         myDog.makeSound();
         myDog.showMood(false);
+        myDog.jump(1.4);
         if(myDog.eat("meat")){
             System.out.println("Min hund spiser: " +dogFood);
         }
