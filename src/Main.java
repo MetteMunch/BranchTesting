@@ -9,9 +9,11 @@ public class Main {
         myCat.makeSound();
 
 
+        System.out.println("Min kat spiser: " +myCat.eat("Fish"));
 
         System.out.println("Min hund siger: ");
         myDog.makeSound();
+        System.out.println("Min hund spiser: "+ myDog.eat("meat"));
 
     }
 }
